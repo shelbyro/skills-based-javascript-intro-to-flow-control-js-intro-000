@@ -81,3 +81,7 @@ describe('flow-control', () => {
 if (basicTeenager) {
   age(13), age(14), age(15), age(16), age(17), age(18), age(19);
 } return `You are a teenager!`
+age(14)
+if (basicTeenager(13, 14, 15, 16, 17, 18, 19)) {
+  return `You are a teenager!`
+}
